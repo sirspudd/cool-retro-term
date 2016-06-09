@@ -166,7 +166,7 @@ Item{
             MenuItem{action: fullscreenAction}
             MenuItem{action: showMenubarAction}
             MenuSeparator{visible: !appSettings.showMenubar}
-            CRTMainMenuBar{visible: !appSettings.showMenubar}
+            //CRTMainMenuBar{visible: !appSettings.showMenubar}
         }
     }
     Component {
